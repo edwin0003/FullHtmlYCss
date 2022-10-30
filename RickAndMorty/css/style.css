@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+}
+
+.div-container_header{
+    width: 100%;
+    background-color: black;
+    display: flex;
+}
+
+.header-container{
+    
+    text-align: center;
+    color: lightyellow;
+
+}
+.div-personajes{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    gap: 18px;
+    
+}
+.div-personajes{
+    display: grid;
+    grid-auto-columns: minmax(125px, auto);
+    gap: .5rem;
+}
+
+
+.img-container{
+    display: flex;
+}
+
+.img-container img{
+    width: 100%;
+}
+
+article{
+    padding: 10px;
+    box-shadow:0 0 1px #000 ;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+}
+
+#container-episode{
+    display: none;
+}

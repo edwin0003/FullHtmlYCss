@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+}
+
+main{
+    background-color: aqua;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap: 18px;
+}
+
+.img-container{
+    display: flex;
+}
+
+.img-container img{
+    width: 100%;
+}
+
+article{
+    padding: 10px;
+    box-shadow:0 0 1px #000 ;
+}
